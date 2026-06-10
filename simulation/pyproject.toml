@@ -1,0 +1,8 @@
+[project]
+name = "the-shapley-singularity-sim"
+version = "0.1.0"
+description = "Exact cooperative-game analyses for The Shapley Singularity: the attribution game, the compression path, and the verifier's wage"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8",
+]
