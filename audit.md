@@ -2,6 +2,24 @@
 
 Dated log of editorial passes and verification runs. Newest first. See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-06-13 — voice reform
+
+Scope: corpus-wide voice reform, applied to this paper as a reference exemplar. No change to the simulation, to any number, or to the citation set; the rework is structural and prose-level only.
+
+Changes:
+
+- Structure de-skeletoned: 10 numbered sections to 9. The bolt-on "Objections and Limits" (§9) was folded into the index section, now "An Index, and the Boundaries of the Audit" (§8), and its five "The first/second/third objection" openings were de-enumerated into flowing prose; the conclusion renumbered to §9. All §7 cross-references remain correct.
+- Prose de-ticced against the new voice.md "second wave": removed the pet-vocabulary ("load-bearing sentences" and "load-bearing and invisible" in the close, "first-class entry" in §2), thinned the "exactly" density (advisory 22 to 16, keeping the uses where exact solution is the genuine methodological point), and cleared the one negate-pivot introduced during the merge.
+- Every decimal and every citation preserved verbatim; both figures and their captions unchanged.
+
+Verification:
+
+- voice: 0 errors, 0 review-candidates.
+- refs: 46 cited / 46 bib / 0 missing / 0 unused (unchanged).
+- claims: 23 prose decimals, 0 without a matching results.json value (unchanged; numbers untouched).
+- build: clean, both figures embedded, 0 missing-character warnings.
+- check => PASS.
+
 ## 2026-06-10 — initial full build
 
 Scope: first complete draft from the single seed chat. Wrote the simulation, the paper, and all provenance docs; brought the paper to a clean build.
